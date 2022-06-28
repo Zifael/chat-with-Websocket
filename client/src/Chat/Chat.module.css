@@ -1,0 +1,113 @@
+.longPolling {   
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5); 
+    border-radius: 5px;
+}
+
+.head {
+    background-color: rgb(245,245,248);
+    border-radius: 5px 5px 0 0;
+    height: 20px;
+}
+
+.main {
+    overflow: auto;
+    height: 400px;
+}
+
+.blockMesssagesUsers {
+    width: 70%;    
+    margin: 20px;    
+}
+
+
+.contentUsers {
+    display: flex;
+}
+
+.contentUserMessages {    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(245,245,248);
+    width: 100%;
+    margin-left: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.message {
+    font-weight: 500;
+}
+
+.date {
+    color: #ccc;
+}
+
+.close {
+    margin-left: 5px;
+    color: #ccc;
+    font-weight: 100;
+    font-size: medium;
+    cursor: pointer;    
+}
+
+.blockInputButton {   
+    background-color: rgb(245,245,248);
+    padding: 20px;
+    position: relative;
+    
+}
+
+.input {    
+    border: none;
+    border: 1px solid grey;
+    padding: 8px;
+    border-radius: 5px;
+    width: 98%;
+    font-size: large;
+}
+
+input:focus {   
+    outline: none;
+  }
+
+.submit {
+    border:1px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 25px;
+    right: 32px;
+    border: none;
+}
+
+.center {
+    margin: 0 auto;
+    width: 800px;    
+}
+
+.form {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    padding: 25px;
+    border-radius: 6px;
+}
+
+.titelForm {
+    padding: 2px;
+    color: rgb(92, 91, 91);     
+}
+
+.inputForm {
+    margin: 5px 0;
+    width: 95%;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: medium;
+    border: 1px solid black;    
+}
+
